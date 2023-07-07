@@ -1,0 +1,214 @@
+html,
+body {
+  height: 100%;
+  background-color: #ffffff !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Barra de Navegacion */
+.navbar {
+  padding: 2rem;
+}
+.navbar-collapse {
+  align-items: end;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 374px) {
+  .Menu1 {
+    font-size: 4px;
+  }
+}
+
+/* Barra de Navegacion */
+
+.bg-my {
+  background-color: #e5e6e7;
+}
+.bg-mygreyfoot {
+  background-color: #b3b3b3;
+}
+.bg-mygrey {
+  background-color: #29292a;
+}
+.bg-mygreyA {
+  background-color: #e6e6e6;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit; /* Hereda el color del texto circundante */
+}
+
+.Menu1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #29292a;
+  font-size: 20px;
+}
+.titularAg {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #29292a;
+  font-size: 18px;
+}
+
+.titleFHyCSN {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.titleFHyCSL {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+.subtitleFHyCSL {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15.6px;
+}
+
+.titleFHyCSH {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+#navbarNav {
+  justify-content: end;
+  font-size: 18px;
+}
+
+.card-title {
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-img-top:hover {
+  background-image: url();
+  transition: all 0.5s ease;
+}
+
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background: #000;
+}
+
+.carousel-caption {
+  padding-bottom: 80px;
+}
+.carousel-caption a {
+  text-decoration: none;
+  color: inherit; /* Hereda el color del texto circundante */
+}
+
+#TitleCarousel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: end;
+  margin-bottom: -4px;
+}
+
+#SubtitleCarousel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 200%;
+  text-align: end;
+  margin-bottom: 50px;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.6;
+}
+
+/**
+ * Button
+ */
+.btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/**
+ * Change animation duration
+ */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+/* Boton Noticias */
+.btn-rectangular {
+  background-color: transparent;
+  color: #007bff; /* color de la línea del botón */
+  border-width: 2px;
+}
+
+/* Intercolumna */
+.gutter > [class*="col-"] {
+  padding-right: 50px; /* Espacio entre columnas */
+  padding-left: 50px; /* Espacio entre columnas */
+}
